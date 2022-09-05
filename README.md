@@ -19,39 +19,25 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
 7773 1340 7894 8463 6930 2898 2190 1866  914 5574
 3770 3016 6395 2897 8541 5082 3712  150 2486 3986
 ```
-## Verification Results in Table 2:
 
-#### Verification Results with DRA only for P1:
 
-| Quantization      | Verification Results (error = 1) | Verification Results (error = 2) | Verification Results (error = 4) | Verification Results (error = 6) |Verification Results (error = 8) |
-| :-----  | :-------      | :-------      | :-------      | :-------      | :-------      |
-| Q = 4   | Proved (0)    | Proved (2)    | Proved (26)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (150) | Unknown (148) | Unknown (124) | Unknown (120) | Unknown (120) |
-| Q = 6   | Proved (15)   | Proved (26)   | Proved (29)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (135) | Unknown (124) | Unknown (121) | Unknown (120) | Unknown (120) |
-| Q = 8   | Proved (21)   | Proved (26)   | Proved (29)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (129) | Unknown (124) | Unknown (121) | Unknown (120) | Unknown (120) |
-| Q = 10  | Proved (24)   | Proved (26)   | Proved (29)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (126) | Unknown (124) | Unknown (121) | Unknown (120) | Unknown (120) |
-
-#### Verification Results with DRA only for P2:
-
-| Quantization      | Verification Results (error = 1) | Verification Results (error = 2) | Verification Results (error = 4) | Verification Results (error = 6) |Verification Results (error = 8) |
-| :-----  | :-------      | :-------      | :-------      | :-------      | :-------      |
-| Q = 4   | Proved (0)    | Proved (0)    | Proved (2)    | Proved (18)   | Proved (29)   | 
-|         | Unknown (150) | Unknown (150) | Unknown (148) | Unknown (132) | Unknown (121) |
-| Q = 6   | Proved (0)    | Proved (4)    | Proved (24)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (150) | Unknown (146) | Unknown (126) | Unknown (120) | Unknown (120) |
-| Q = 8   | Proved (2)    | Proved (18)   | Proved (28)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (148) | Unknown (132) | Unknown (122) | Unknown (120) | Unknown (120) |
-| Q = 10  | Proved (4)    | Proved (20)   | Proved (28)   | Proved (30)   | Proved (30)   | 
-|         | Unknown (146) | Unknown (130) | Unknown (122) | Unknown (120) | Unknown (120) |
-
-#### Verification Results with DRA only for P4:
-
-| Quantization      | Verification Results (error = 1) | Verification Results (error = 2) | Verification Results (error = 4) | Verification Results (error = 6) |Verification Results (error = 8) |
-| :-----  | :-------      | :-------      | :-------      | :-------      | :-------      |
-| Q = 4   | Proved (0)    | Proved (0)    | Proved (0)    | Proved (0)    | Proved (1)    | 
-|         | Unknown (150) | Unknown (150) | Unknown (150) | Unknown (150) | Unknown (149) |
-| Q = 8   | Proved (0)    | Proved (4)    | Proved (23)   | Proved (29)   | Proved (30)   | 
-|         | Unknown (150) | Unknown (146) | Unknown (127) | Unknown (121) | Unknown (120) |
+<!-- <table>
+  <tr>
+      <th rowspan="2">Quantization</th>
+      <th colspan="3">Verification Results (error = 1)</th>
+      <th colspan="3">Verification Results (error = 2)</th>
+      <th colspan="3">Verification Results (error = 4)</th>
+      <th colspan="3">Verification Results (error = 6)</th>
+      <th colspan="3">Verification Results (error = 8)</th>
+  </tr>
+  <tr>
+      <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
+      <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
+      <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
+      <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
+      <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
+  </tr>
+  <tr>
+      <td>Proved (0)</td><td>Proved(0)</td><td>Proved()     <td>Proved (2)<td><td>Proved (26)<td><td>Proved (30)<td><td>Proved (30)<td>
+  </tr>
+</table> -->
