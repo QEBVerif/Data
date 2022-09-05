@@ -19,7 +19,7 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
 7773 1340 7894 8463 6930 2898 2190 1866  914 5574
 3770 3016 6395 2897 8541 5082 3712  150 2486 3986
 ```
-## Verification Results (number of proved, unknown(UK)/timeout(TO) tasks) in Table 2:
+## Verification Results (number of verified, unknown(UK)/timeout(TO) tasks) in Table 2:
 
 #### Verification Results for P1:
 
@@ -40,28 +40,28 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
       <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
   </tr>
   <tr>
-      <td rowspan="2">Q=4</td><td>Proved</td><td>0</td>	<td>30</td>	<td>30</td>	<td>2</td>	<td>30</td>	<td>30</td>	<td>26</td>	<td>30</td>	<td>30</td>	<td>30</td><td>30</td>	<td>30</td>	<td>30</td>	<td>30</td>	<td>30</td>
+      <td rowspan="2">Q=4</td><td>Verified</td><td>0</td>	<td>30</td>	<td>30</td>	<td>2</td>	<td>30</td>	<td>30</td>	<td>26</td>	<td>30</td>	<td>30</td>	<td>30</td><td>30</td>	<td>30</td>	<td>30</td>	<td>30</td>	<td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>30</td>	<td>0</td>	<td>0</td>	<td>28</td>	<td>0</td>	<td>0</td> <td>4</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=6</td><td>Proved</td><td>15</td><td>28</td><td>29</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=6</td><td>Verified</td><td>15</td><td>28</td><td>29</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>15</td><td>2</td><td>1</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=8</td><td>Proved</td><td>21</td><td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=8</td><td>Verified</td><td>21</td><td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>9</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=10</td><td>Proved</td><td>24</td><td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=10</td><td>Verified</td><td>24</td><td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>6</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
@@ -88,28 +88,28 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
       <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
   </tr>
   <tr>
-      <td rowspan="2">Q=4</td><td>Proved</td><td>0</td><td>30</td><td>30</td><td>0</td><td>22</td><td>23</td><td>2</td><td>21</td><td>21</td><td>18</td><td>29</td><td>29</td><td>29</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=4</td><td>Verified</td><td>0</td><td>30</td><td>30</td><td>0</td><td>22</td><td>23</td><td>2</td><td>21</td><td>21</td><td>18</td><td>29</td><td>29</td><td>29</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>30</td><td>0</td><td>0</td><td>30</td><td>8</td><td>7</td><td>28</td><td>9</td><td>9</td><td>12</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=6</td><td>Proved</td><td>0</td><td>18</td><td>18</td><td>4</td><td>30</td><td>30</td><td>24</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=6</td><td>Verified</td><td>0</td><td>18</td><td>18</td><td>4</td><td>30</td><td>30</td><td>24</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>30</td><td>12</td><td>12</td><td>26</td><td>0</td><td>0</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=8</td><td>Proved</td><td>2</td><td>25</td><td>27</td><td>18</td><td>30</td><td>29</td><td>28</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=8</td><td>Verified</td><td>2</td><td>25</td><td>27</td><td>18</td><td>30</td><td>29</td><td>28</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>28</td><td>5</td><td>3</td><td>12</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=10</td><td>Proved</td><td>4</td><td>27</td><td>27</td><td>20</td><td>28</td><td>28</td><td>28</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=10</td><td>Verified</td><td>4</td><td>27</td><td>27</td><td>20</td><td>28</td><td>28</td><td>28</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>26</td><td>3</td><td>3</td><td>10</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
@@ -136,14 +136,14 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
       <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
   </tr>
   <tr>
-      <td rowspan="2">Q=4</td><td>Proved</td><td>0</td><td>30</td><td>30</td><td>0</td><td>29</td><td>28</td><td>0</td><td>15</td><td>16</td><td>0</td><td>5</td><td>4</td><td>1</td><td>7</td><td>7</td>
+      <td rowspan="2">Q=4</td><td>Verified</td><td>0</td><td>30</td><td>30</td><td>0</td><td>29</td><td>28</td><td>0</td><td>15</td><td>16</td><td>0</td><td>5</td><td>4</td><td>1</td><td>7</td><td>7</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>30</td><td>0</td><td>0</td><td>30</td><td>1</td><td>2</td><td>30</td><td>15</td><td>14</td><td>30</td><td>25</td><td>26</td><td>29</td><td>23</td><td>23</td>
   </tr>
   
   <tr>
-      <td rowspan="2">Q=8</td><td>Proved</td><td>0</td><td>17</td><td>19</td><td>4</td><td>17</td><td>27</td><td>23</td><td>28</td><td>29</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+      <td rowspan="2">Q=8</td><td>Verified</td><td>0</td><td>17</td><td>19</td><td>4</td><td>17</td><td>27</td><td>23</td><td>28</td><td>29</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
   </tr>
   <tr>
       <td>UK/TO</td><td>30</td><td>13</td><td>11</td><td>26</td><td>13</td><td>3</td><td>7</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
