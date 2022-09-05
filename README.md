@@ -19,11 +19,13 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
 7773 1340 7894 8463 6930 2898 2190 1866  914 5574
 3770 3016 6395 2897 8541 5082 3712  150 2486 3986
 ```
+## Verification Results (number of proved/unknown tasks) in Table 2:
 
+#### Verification Results for P1:
 
-<!-- <table>
+<table>
   <tr>
-      <th rowspan="2">Quantization</th>
+      <th rowspan="2">Quantization</th><th rowspan="2">Results</th>
       <th colspan="3">Verification Results (error = 1)</th>
       <th colspan="3">Verification Results (error = 2)</th>
       <th colspan="3">Verification Results (error = 4)</th>
@@ -38,6 +40,31 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
       <td>DRA</td><th>DRA+MILP</td><td>DRA+MILP+Diff</td>
   </tr>
   <tr>
-      <td>Proved (0)</td><td>Proved(0)</td><td>Proved()     <td>Proved (2)<td><td>Proved (26)<td><td>Proved (30)<td><td>Proved (30)<td>
+      <td rowspan="2">Q=4</td><td>Proved</td><td>0</td>	<td>30</td>	<td>30</td>	<td>2</td>	<td>30</td>	<td>30</td>	<td>26</td>	<td>30</td>	<td>30</td>	<td>30</td><td>30</td>	<td>30</td>	<td>30</td>	<td>30</td>	<td>30</td>
   </tr>
-</table> -->
+  <tr>
+      <td>Unknown</td><td>30</td>	<td>0</td>	<td>0</td>	<td>28</td>	<td>0</td>	<td>0</td> <td>4</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+  </tr>
+  
+  <tr>
+      <td rowspan="2">Q=6</td><td>Proved</td><td>15</td><td>28</td><td>29</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+  </tr>
+  <tr>
+      <td>Unknown</td><td>15</td><td>2</td><td>1</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+  </tr>
+  
+  <tr>
+      <td rowspan="2">Q=8</td><td>Proved</td><td>21</td><td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+  </tr>
+  <tr>
+      <td>Unknown</td><td>9</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+  </tr>
+  
+  <tr>
+      <td rowspan="2">Q=10</td><td>Proved</td><td>24</td><td>30</td><td>30</td><td>26</td><td>30</td><td>30</td><td>29</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+  </tr>
+  <tr>
+      <td>Unknown</td><td>6</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+  </tr>
+  
+</table>
