@@ -152,5 +152,5 @@ The 30 correctly predicted samples from MNIST dataset by all the 20 networks (sh
 </table>
 
 - Note that, we happen to collect the verification results of error=0.5(all verified successfully) for methods "DRA+MILP" and  "DRA+MILP+Diff" for P2-4, hence the number of verified tasks in the paper is 30 more than here, i.e., (162 and 163 in paper vs. 132 and 133 here);
-- We also forget to collect the verification results of method "DRA only" when error=1 for all the networks in the paper;
+- We forget to collect the verification results of method "DRA only" when error=1 for all the networks in the paper;
 - We will correct them all in the next version.
